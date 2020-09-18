@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import {
   StyleSheet,
   Text,
-  TouchableHighlight,
   View,
   Appearance,
 } from "react-native";
 import DateTimePicker from "@react-native-community/datetimepicker";
+import { TouchableHighlight } from 'react-native-gesture-handler';
 import Modal from "./Modal";
 import { isIphoneX } from "./utils";
 
